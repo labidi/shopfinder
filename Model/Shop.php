@@ -49,17 +49,6 @@ class Shop extends AbstractModel implements ShopInterface
         return $this;
     }
 
-    public function getDescription(): string
-    {
-        return (string)$this->getData(self::DESCRIPTION);
-    }
-
-    public function setDescription(string $description): ShopInterface
-    {
-        $this->setData(self::DESCRIPTION, $description);
-        return $this;
-    }
-
     public function getCountry(): string
     {
         return (string)$this->getData(self::COUNTRY);
