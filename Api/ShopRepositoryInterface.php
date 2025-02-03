@@ -4,8 +4,8 @@ declare(strict_types=1);
 namespace Saddemlabidi\Shopfinder\Api;
 
 use Magento\Framework\Api\SearchCriteriaInterface;
-use Saddemlabidi\ShopfinderApi\Api\Data\ShopInterface;
-use Saddemlabidi\ShopfinderApi\Api\Data\ShopSearchResultsInterface;
+use Saddemlabidi\Shopfinder\Api\Data\ShopInterface;
+use Saddemlabidi\Shopfinder\Api\Data\ShopSearchResultsInterface;
 
 interface ShopRepositoryInterface
 {

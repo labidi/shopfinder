@@ -4,16 +4,16 @@ declare(strict_types=1);
 
 namespace Saddemlabidi\Shopfinder\Model;
 
-use Saddemlabidi\ShopfinderApi\Api\ShopRepositoryInterface;
-use Saddemlabidi\ShopfinderApi\Api\Data\ShopInterface;
+use Saddemlabidi\Shopfinder\Api\ShopRepositoryInterface;
+use Saddemlabidi\Shopfinder\Api\Data\ShopInterface;
 use Saddemlabidi\Shopfinder\Model\ResourceModel\Shop as ShopResource;
 use Saddemlabidi\Shopfinder\Model\ResourceModel\Shop\CollectionFactory as ShopCollectionFactory;
 use Magento\Framework\Api\SearchCriteriaInterface;
 use Magento\Framework\Exception\NoSuchEntityException;
 use Magento\Framework\Exception\CouldNotSaveException;
 use Magento\Framework\Exception\CouldNotDeleteException;
-use Saddemlabidi\ShopfinderApi\Api\Data\ShopSearchResultsInterfaceFactory;
-use Saddemlabidi\ShopfinderApi\Api\Data\ShopSearchResultsInterface;
+use Saddemlabidi\Shopfinder\Api\Data\ShopSearchResultsInterfaceFactory;
+use Saddemlabidi\Shopfinder\Api\Data\ShopSearchResultsInterface;
 
 class ShopRepository implements ShopRepositoryInterface
 {
