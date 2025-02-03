@@ -11,14 +11,14 @@ interface ShopSearchResultsInterface extends SearchResultsInterface
     /**
      * Get blocks list.
      *
-     * @return \Saddemlabidi\ShopfinderApi\Api\Data\ShopInterface[]
+     * @return \Saddemlabidi\Shopfinder\Api\Data\ShopInterface[]
      */
     public function getItems();
 
     /**
      * Set blocks list.
      *
-     * @param \Saddemlabidi\ShopfinderApi\Api\Data\ShopInterface[] $items
+     * @param \Saddemlabidi\Shopfinder\Api\Data\ShopInterface[] $items
      * @return $this
      */
     public function setItems(array $items);

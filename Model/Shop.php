@@ -6,7 +6,7 @@ namespace Saddemlabidi\Shopfinder\Model;
 
 use Magento\Framework\Model\AbstractModel;
 use Saddemlabidi\Shopfinder\Model\ResourceModel\Shop as ShopResource;
-use Saddemlabidi\ShopfinderApi\Api\Data\ShopInterface;
+use Saddemlabidi\Shopfinder\Api\Data\ShopInterface;
 
 class Shop extends AbstractModel implements ShopInterface
 {
