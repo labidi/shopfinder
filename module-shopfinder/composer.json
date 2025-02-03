@@ -1,5 +1,5 @@
 {
-    "name": "'Saddemlabidi/module-shopfinder",
+    "name": "saddemlabidi/module-shopfinder",
     "description": "Magento 2 module for managing shops (Shopfinder).",
     "require": {
         "magento/framework": "*",
